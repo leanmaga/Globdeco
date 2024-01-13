@@ -37,14 +37,30 @@ const BuyCard = ({imagen}) => {
           
           <div className="flex flex-col justify-center content-center gap-4">
             
-            <button className="m-2 h-10 px-6 font-semibold rounded-full bg-secondary-600 text-white hover:bg-secondary-400" type="submit">
+            <a 
+              href="https://www.instagram.com/glob.deco/?hl=es" 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              className="w-32 flex justify-center text-center items-center h-8 font-semibold rounded-full bg-secondary-600 text-white hover:bg-secondary-400" 
+              type="button"
+            >
+                
               Galería
-            </button>
-            
-            <button className="m-2 h-10 px-6 md:px-4 font-semibold rounded-full border border-secondary-600 text-white hover:bg-secondary-400" type="button">
-              Pedí el tuyo
-            </button>
 
+            </a>
+
+            <a 
+              href="https://api.whatsapp.com/send?phone=5491121621988&text=Hola,%20gracias%20por%20comunicarte." 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="w-32 flex justify-center text-center items-center h-8 font-semibold rounded-full border border-secondary-600 text-white hover:bg-secondary-400" 
+              type="button"
+            >
+              
+              Pedí el tuyo
+              
+            </a>
+                   
           </div>
           
         </div>

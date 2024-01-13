@@ -17,8 +17,18 @@ const PhotoCard = ({title, subtitle, parrafo, imagenPrincipal, imagenenSecundari
             <img src={imagenSecundariaDos} alt="" className="hidden w-full h-52 object-cover rounded-lg md:block lg:row-start-2 lg:col-span-2 lg:h-32" loading="lazy"/>
           </div>
           
-          <div className="mt-4 col-start-1 row-start-3 self-center sm:mt-0 sm:col-start-2 sm:row-start-2 sm:row-span-2 lg:mt-6 lg:col-start-1 lg:row-start-3 lg:row-end-4">
-            <button type="button" className="bg-indigo-600 text-white text-sm leading-6 font-medium py-2 px-3 rounded-lg">Galería</button>
+          <div className="col-start-1 row-start-3 self-center sm:mt-0 sm:col-start-2 sm:row-start-2 sm:row-span-2 lg:mt-6 lg:col-start-1 lg:row-start-3 lg:row-end-4">
+            <a 
+                href="https://www.instagram.com/glob.deco/?hl=es" 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                className="w-32 flex justify-center text-center items-center h-8 font-semibold rounded-full bg-secondary-600 text-white hover:bg-secondary-400" 
+                type="button"
+              >
+                  
+                Galería
+
+            </a>
           </div>
           
           <p className="mt-4 text-sm leading-6 col-start-1 sm:col-span-2 lg:mt-6 lg:row-start-4 lg:col-span-1 dark:text-slate-400">

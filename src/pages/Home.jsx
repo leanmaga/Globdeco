@@ -46,28 +46,6 @@ const Home = () => {
 
       <Division/>
 
-      <PhotoCard 
-        title={'Sillón Trono👑'}
-        subtitle={'Ideal para sector de fotos!'}
-        parrafo={'Dale un sillon especial al rey o reina de la fiesta'}
-        imagenPrincipal={sillon}
-        imagenenSecundariaUno={sillon}
-        imagenSecundariaDos={sillon}
-      />
-
-      <Division/>
-
-      <PhotoCard
-        title={'Sillón Trono👑'}
-        subtitle={'Ideal para sector de fotos!'}
-        parrafo={'Dale un sillon especial al rey o reina de la fiesta'}
-        imagenPrincipal={sillon}
-        imagenenSecundariaUno={sillon}
-        imagenSecundariaDos={sillon}
-      />
-
-      <Division/>
-
     </section>
 
   );
