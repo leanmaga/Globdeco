@@ -18,6 +18,17 @@ import puff1 from './7.jpg'
 import puff2 from './16.jpg'
 import deco1 from './4.png'
 import deco2 from './17.jpg'
+import arreglo2 from './arreglo2.png'
+import arreglo3 from './arreglo3.png'
+import quinceled from './quinceled.png'
+import img1 from './img1.jpg'
+import img2 from './img2.jpg'
+import img3 from './img3.png'
+import img4 from './img4.png'
+
+
+
+
 
 export {
     neon1,
@@ -38,5 +49,12 @@ export {
     puff2,
     deco1,
     deco2,
-    logo
+    logo,
+    arreglo2,
+    arreglo3,
+    quinceled,
+    img1,
+    img2,
+    img3,
+    img4,
 }
