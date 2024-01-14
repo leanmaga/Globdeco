@@ -15,10 +15,10 @@ const BuyCard = ({imagen}) => {
         
         <div className="flex flex-wrap justify-between text-justify gap-4">
           
-          <h1 className="flex font-medium text-white gap-4 md:text-center">
+          <h1 className="flex font-medium text-white gap-4 text-start md:text-center">
             Aro de Globos 
             <span>
-              <button className="flex items-center justify-center w-9 h-9 rounded-full text-violet-600 bg-violet-50" type="button" aria-label="Like">
+              <button className="flex items-center justify-center w-9 h-9 rounded-full text-violet-600 bg-violet-50 hover:scale-50 focus:scale-150 hover:text-primary-500" type="button" aria-label="Like">
                 <svg width="20" height="20" fill="currentColor" aria-hidden="true">
                   <path fillRule="evenodd" clipRule="evenodd" d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z" />
                 </svg>
