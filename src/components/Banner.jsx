@@ -4,7 +4,7 @@ import globdeco from '../assets/globdeco.mp4'
 const Banner = () => {
   return (
     
-    <div className="relative overflow-hidden bg-white h-screen">
+    <div className="relative overflow-hidden bg-white h-[130vh] md:h-screen ">
         <div className="flex flex-col items-start md:justify-center lg:md:justify-center content-start h-screen sm:h-auto lg:h-screen ">
             <div className="relative max-w-7xl px-4 sm:static sm:px-6 lg:px-8">
                 

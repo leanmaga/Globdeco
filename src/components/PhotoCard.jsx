@@ -9,9 +9,9 @@ const PhotoCard = ({title, subtitle, parrafo, imagenPrincipal, imagenenSecundari
         {/* Primera mitad */}
         <div className="relative justify-center p-3 col-start-1 row-start-1 flex flex-col rounded-lg bg-gradient-to-t from-black/75 via-black/0 sm:bg-none sm:row-start-2 sm:p-0 lg:row-start-1 lg:col-span-1">
           <h1 className="mt-1 text-lg font-semibold text-white sm:text-slate-900 md:text-2xl dark:sm:text-white">{title}</h1>
-          <p className="text-sm leading-4 font-medium text-white sm:text-slate-500 dark:sm:text-slate-400">{subtitle}</p>
+          <p className="text-sm leading-4 font-medium text-white lg:text-slate-500 dark:lg:text-slate-400">{subtitle}</p>
 
-          <p className="mt-4 text-sm leading-6 dark:text-slate-400">
+          <p className="mt-4 text-sm leading-6 text-white dark:lg:text-slate-400">
             {parrafo} 
           </p>
         </div>

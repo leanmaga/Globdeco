@@ -58,8 +58,8 @@ const Home = () => {
         img3={img3}
         img4={img4}
         titulo1={'Hoy realizamos una deco para Belu que cumplió 15 con mariposas💗'}
-        titulo2={'Alquiler de 10 Puffs y Mesa❤️‍🔥'}
-        titulo3={'Hermosa deco para los 18'}
+        titulo2={'Alquiler de 10 Puffs y Mesa ❤️‍🔥'}
+        titulo3={'Hermosa deco para Todas tus fiestas'}
         titulo4={'Deco de Chanchita🐷'}
         red1={"https://www.instagram.com/p/CkUPZ1TsADw/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="}
         red2={"https://www.instagram.com/p/CxlXy88RcTJ/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="}
