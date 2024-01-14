@@ -1,6 +1,7 @@
 import { deco1, deco2, globo1, globo2, globo3, puff1 } from "../assets/images"
 import globdeco from '../assets/globdeco.mp4'
 
+
 const Banner = () => {
   return (
     
@@ -8,9 +9,9 @@ const Banner = () => {
         <div className="flex flex-col items-start md:justify-center lg:md:justify-center content-start h-screen sm:h-auto lg:h-screen ">
             <div className="relative max-w-7xl px-4 sm:static sm:px-6 lg:px-8">
                 
-                <div className="sm:max-w-lg">
+                <div className="sm:max-w-lg slide-in-blurred-left ">
                     
-                    <h1 className="lg:text-8xl font-bold tracking-tight text-gray-900 text-4xl p-4">Glob.deco</h1>
+                    <h1 className="tracking-in-expand lg:text-8xl font-bold tracking-tight text-gray-900 text-4xl p-4">Glob.deco</h1>
                         
                     <p className="mt-4 text-xl text-gray-500 p-4">
                         🎈Decoración de globos<br />
@@ -24,7 +25,7 @@ const Banner = () => {
                    
                 </div>
 
-                <div className="items-center">
+                <div className="items-center slide-in-blurred-right ">
                     <div className="mt-10">
                     
                         <div aria-hidden="true" className="pointer-events-none lg:absolute lg:inset-y-0 lg:mx-auto lg:w-full lg:max-w-7xl">

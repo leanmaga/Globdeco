@@ -13,6 +13,7 @@ import quince from '../assets/quince.mp4'
 const Home = () => {
   
   
+  
   return (
     <section className="w-full h-full">
      
